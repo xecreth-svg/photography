@@ -104,25 +104,20 @@ layout: default
 <!-- CSS -->
 <style>
     button {
-        background-color: #f0f0f0; /* Soft background color */
-        border: 2px solid #ccc; /* Neutral border */
-        color: #333; /* Default text color */
-        padding: 10px 20px;
-        transition: background-color 0.3s, color 0.3s, border 0.3s;
+        transition: background-color 0.3s, color 0.3s;
     }
 
     /* Default button hover state */
     button:hover {
-        background-color: #d3d3d3; /* Soft gray hover color */
-        color: #333; /* Text color stays dark */
-        border: 2px solid #aaa; /* Soft border on hover */
+        background-color: #007bff; /* Example hover color */
+        color: #fff;
     }
 
     /* Active (toggled) button state */
     button.active,
     button.active:hover {
-        background-color: #d3d3d3; /* Same soft gray for active state */
-        color: #333; /* Text color stays dark */
-        border: 2px solid #888; /* Slightly darker border on active */
+        background-color: #007bff;
+        color: #fff;
+        /* Ensures the active state retains the hover effect */
     }
 </style>
