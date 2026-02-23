@@ -25,6 +25,7 @@ social_urls:
   linkedin: ""
   github: ""
 
-# Configure which exif data to display
-# Tag is the actual exif tag, icon is a fontawesome icon. Use JSON notation without line breaks
+# Originally the idea was camera photo info
+# But I could either add metadata to the images as provided to include cent/holiday/occasion/none and then display that by modifying these tags
+# Or if I cant I can just make a manual tag system, likely not needed though and can do via meta data / exif tag changes
 exif: '[{"tag": "Model", "icon": "fa fa-camera-retro"}, {"tag": "FNumber", "icon": "far fa-dot-circle"}, {"tag": "ExposureTime", "icon": "far fa-clock"}, {"tag": "ISOSpeedRatings", "icon": "fa fa-info-circle"}]'
