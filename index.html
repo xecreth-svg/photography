@@ -100,3 +100,24 @@ layout: default
         });
     });
 </script>
+
+<!-- CSS -->
+<style>
+    button {
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    /* Default button hover state */
+    button:hover {
+        background-color: #007bff; /* Example hover color */
+        color: #fff;
+    }
+
+    /* Active (toggled) button state */
+    button.active,
+    button.active:hover {
+        background-color: #007bff;
+        color: #fff;
+        /* Ensures the active state retains the hover effect */
+    }
+</style>
